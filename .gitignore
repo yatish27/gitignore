@@ -1,3 +1,10 @@
+rerun.txt
+pickle-email-*.html
+.project
+
+*.rbc
+*.sassc
+.sass-cache
 
 /.bundle
 /vendor/bundle
