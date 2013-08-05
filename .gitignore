@@ -1,0 +1,48 @@
+
+/.bundle
+/vendor/bundle
+
+# log and tmp files
+/log/*
+/tmp/*
+
+/db/*.sqlite3
+
+/public/system/*
+
+# Compiled assets away if compilation is done on production
+/public/assets/*
+
+/spec/tmp/*
+
+# Keep partially save backup file away from version control
+**.orig
+
+
+# Temporary files added as Backup should be away from version control
+*.bk
+
+# Application credentials and configuration files
+/config/database.yml
+/config/initializers/email_settings.rb
+/config/env_variables.rb
+
+
+# Keep redis backup out of version control
+dump.rdb
+
+# Remove this if application running of Heroku
+Gemfile.lock
+
+.directory
+
+# Allow to keep the name of the gemset as per the developer, But keeping them in version control helps to maintain consistency 
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Custom .sh files for testing or experimenting
+/doc/*.sh
+
+
+
